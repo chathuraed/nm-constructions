@@ -1,12 +1,25 @@
 import CTAButton from './components/CTAButton';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-forest-green to-sage-green text-white py-24 md:py-32">
-        <div className="container mx-auto px-4">
+      <section className="relative bg-gradient-to-br from-navy-blue to-light-navy text-white py-24 md:py-32 overflow-hidden">
+        {/* Background Image Overlay - Add your hero image to /public/images/hero/hero-construction.jpg */}
+        <div className="absolute inset-0 bg-black/40 z-0">
+          {/* Uncomment when you add the image: */}
+          <Image
+            src="/images/hero/hero-construction.jpg"
+            alt="NM Constructions"
+            fill
+            className="object-cover"
+            priority
+          />
+
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Building Strong Homes.<br />Designing Beautiful Landscapes.
@@ -33,34 +46,43 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-sand bg-opacity-20 p-8 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">🏗️</div>
+              <div className="relative w-16 h-16 mb-4 mx-auto md:mx-0">
+                {/* Add image: /public/images/services/construction.jpg */}
+                <div className="w-16 h-16 bg-navy-blue rounded-full flex items-center justify-center text-white text-3xl">🏗️</div>
+              </div>
               <h3 className="text-2xl font-bold text-charcoal mb-3">Construction</h3>
               <p className="text-stone-gray mb-4">
                 Residential homes (1-2 storey) and commercial buildings up to 10 floors. Quality workmanship guaranteed.
               </p>
-              <Link href="/services" className="text-forest-green font-semibold hover:underline">
+              <Link href="/services" className="text-navy-blue font-semibold hover:underline">
                 Learn More →
               </Link>
             </div>
 
             <div className="bg-sand bg-opacity-20 p-8 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">🌳</div>
+              <div className="relative w-16 h-16 mb-4 mx-auto md:mx-0">
+                {/* Add image: /public/images/services/landscaping.jpg */}
+                <div className="w-16 h-16 bg-light-navy rounded-full flex items-center justify-center text-white text-3xl">🌳</div>
+              </div>
               <h3 className="text-2xl font-bold text-charcoal mb-3">Landscaping</h3>
               <p className="text-stone-gray mb-4">
                 Hotel and residential landscaping, garden design and maintenance, creating stunning outdoor spaces.
               </p>
-              <Link href="/services" className="text-forest-green font-semibold hover:underline">
+              <Link href="/services" className="text-navy-blue font-semibold hover:underline">
                 Learn More →
               </Link>
             </div>
 
             <div className="bg-sand bg-opacity-20 p-8 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">🏊</div>
+              <div className="relative w-16 h-16 mb-4 mx-auto md:mx-0">
+                {/* Add image: /public/images/services/swimming-pool.jpg */}
+                <div className="w-16 h-16 bg-ocean-blue rounded-full flex items-center justify-center text-white text-3xl">🏊</div>
+              </div>
               <h3 className="text-2xl font-bold text-charcoal mb-3">Pools & Water Features</h3>
               <p className="text-stone-gray mb-4">
                 Indoor and outdoor swimming pools, decorative ponds, and custom water features for any property.
               </p>
-              <Link href="/services" className="text-forest-green font-semibold hover:underline">
+              <Link href="/services" className="text-navy-blue font-semibold hover:underline">
                 Learn More →
               </Link>
             </div>

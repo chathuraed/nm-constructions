@@ -11,9 +11,9 @@ export default function CTAButton({ text, href, variant = 'primary', onClick }: 
     const baseClasses = "px-8 py-3 rounded-md font-semibold transition-all duration-300 inline-block text-center";
 
     const variantClasses = {
-        primary: "bg-forest-green text-white hover:bg-opacity-90 shadow-lg hover:shadow-xl",
+        primary: "bg-navy-blue text-white hover:bg-opacity-90 shadow-lg hover:shadow-xl",
         secondary: "bg-ocean-blue text-white hover:bg-opacity-90 shadow-lg hover:shadow-xl",
-        outline: "border-2 border-forest-green text-forest-green hover:bg-forest-green hover:text-white"
+        outline: "border-2 border-navy-blue text-navy-blue hover:bg-navy-blue hover:text-white"
     };
 
     const classes = `${baseClasses} ${variantClasses[variant]}`;

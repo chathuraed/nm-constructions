@@ -3,8 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --forest-green: #2d5016;
-  --sage-green: #7a9b76;
+  --navy-blue: #1e3a8a;
+  --light-navy: #3b82f6;
   --charcoal: #3a3a3a;
   --stone-gray: #808080;
   --sand: #d4c5a9;
@@ -12,18 +12,14 @@
   --sky-blue: #87ceeb;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-forest-green: var(--forest-green);
-  --color-sage-green: var(--sage-green);
-  --color-charcoal: var(--charcoal);
-  --color-stone-gray: var(--stone-gray);
-  --color-sand: var(--sand);
-  --color-ocean-blue: var(--ocean-blue);
-  --color-sky-blue: var(--sky-blue);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-navy-blue: #1e3a8a;
+  --color-light-navy: #3b82f6;
+  --color-charcoal: #3a3a3a;
+  --color-stone-gray: #808080;
+  --color-sand: #d4c5a9;
+  --color-ocean-blue: #4a90a4;
+  --color-sky-blue: #87ceeb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,7 +41,7 @@ body {
 
 @layer utilities {
   .nav-link {
-    @apply text-charcoal hover:text-forest-green transition-colors duration-200 font-medium;
+    @apply text-charcoal hover:text-navy-blue transition-colors duration-200 font-medium;
   }
 
   .section-title {

@@ -4,7 +4,7 @@ export default function ServicesPage() {
     return (
         <main>
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-forest-green to-sage-green text-white py-20">
+            <section className="bg-gradient-to-r from-navy-blue to-light-navy text-white py-20">
                 <div className="container mx-auto px-4">
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
                     <p className="text-xl">Comprehensive construction and landscaping solutions for every need</p>
@@ -25,7 +25,7 @@ export default function ServicesPage() {
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                            <div className="border-l-4 border-forest-green pl-4">
+                            <div className="border-l-4 border-navy-blue pl-4">
                                 <h3 className="text-xl font-bold text-charcoal mb-2">Single-Storey Houses</h3>
                                 <p className="text-stone-gray">
                                     Perfect for families seeking spacious ground-level living. Modern designs with optimal
@@ -33,7 +33,7 @@ export default function ServicesPage() {
                                 </p>
                             </div>
 
-                            <div className="border-l-4 border-forest-green pl-4">
+                            <div className="border-l-4 border-navy-blue pl-4">
                                 <h3 className="text-xl font-bold text-charcoal mb-2">Two-Storey Houses</h3>
                                 <p className="text-stone-gray">
                                     Maximize your land with elegant two-storey designs. Ideal for growing families and
@@ -41,14 +41,14 @@ export default function ServicesPage() {
                                 </p>
                             </div>
 
-                            <div className="border-l-4 border-forest-green pl-4">
+                            <div className="border-l-4 border-navy-blue pl-4">
                                 <h3 className="text-xl font-bold text-charcoal mb-2">Custom Designs</h3>
                                 <p className="text-stone-gray">
                                     Work with our architects to create a home that reflects your unique style and needs.
                                 </p>
                             </div>
 
-                            <div className="border-l-4 border-forest-green pl-4">
+                            <div className="border-l-4 border-navy-blue pl-4">
                                 <h3 className="text-xl font-bold text-charcoal mb-2">Renovations & Extensions</h3>
                                 <p className="text-stone-gray">
                                     Upgrade and expand your existing home with quality renovation and extension services.
@@ -164,19 +164,19 @@ export default function ServicesPage() {
                                 <h3 className="text-xl font-bold text-charcoal mb-3">Swimming Pools</h3>
                                 <ul className="space-y-3 text-stone-gray">
                                     <li className="flex items-start gap-2">
-                                        <span className="text-forest-green font-bold">✓</span>
+                                        <span className="text-navy-blue font-bold">✓</span>
                                         <span>Indoor swimming pools with climate control</span>
                                     </li>
                                     <li className="flex items-start gap-2">
-                                        <span className="text-forest-green font-bold">✓</span>
+                                        <span className="text-navy-blue font-bold">✓</span>
                                         <span>Outdoor pools with various shapes and sizes</span>
                                     </li>
                                     <li className="flex items-start gap-2">
-                                        <span className="text-forest-green font-bold">✓</span>
+                                        <span className="text-navy-blue font-bold">✓</span>
                                         <span>Infinity pools and lap pools</span>
                                     </li>
                                     <li className="flex items-start gap-2">
-                                        <span className="text-forest-green font-bold">✓</span>
+                                        <span className="text-navy-blue font-bold">✓</span>
                                         <span>Pool maintenance and repair services</span>
                                     </li>
                                 </ul>
@@ -186,19 +186,19 @@ export default function ServicesPage() {
                                 <h3 className="text-xl font-bold text-charcoal mb-3">Decorative Water Features</h3>
                                 <ul className="space-y-3 text-stone-gray">
                                     <li className="flex items-start gap-2">
-                                        <span className="text-forest-green font-bold">✓</span>
+                                        <span className="text-navy-blue font-bold">✓</span>
                                         <span>Koi ponds and decorative fish ponds</span>
                                     </li>
                                     <li className="flex items-start gap-2">
-                                        <span className="text-forest-green font-bold">✓</span>
+                                        <span className="text-navy-blue font-bold">✓</span>
                                         <span>Waterfalls and fountains</span>
                                     </li>
                                     <li className="flex items-start gap-2">
-                                        <span className="text-forest-green font-bold">✓</span>
+                                        <span className="text-navy-blue font-bold">✓</span>
                                         <span>Stream and creek installations</span>
                                     </li>
                                     <li className="flex items-start gap-2">
-                                        <span className="text-forest-green font-bold">✓</span>
+                                        <span className="text-navy-blue font-bold">✓</span>
                                         <span>Custom water garden designs</span>
                                     </li>
                                 </ul>

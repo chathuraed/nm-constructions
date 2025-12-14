@@ -58,19 +58,19 @@ export default function AboutPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                         <div className="text-center">
-                            <div className="text-5xl font-bold text-forest-green mb-2">100+</div>
+                            <div className="text-5xl font-bold text-navy-blue mb-2">100+</div>
                             <h3 className="text-xl font-semibold text-charcoal mb-2">Projects Completed</h3>
                             <p className="text-stone-gray">Residential, commercial, and hospitality projects</p>
                         </div>
 
                         <div className="text-center">
-                            <div className="text-5xl font-bold text-forest-green mb-2">10+</div>
+                            <div className="text-5xl font-bold text-navy-blue mb-2">10+</div>
                             <h3 className="text-xl font-semibold text-charcoal mb-2">Years Experience</h3>
                             <p className="text-stone-gray">Proven track record of excellence</p>
                         </div>
 
                         <div className="text-center">
-                            <div className="text-5xl font-bold text-forest-green mb-2">50+</div>
+                            <div className="text-5xl font-bold text-navy-blue mb-2">50+</div>
                             <h3 className="text-xl font-semibold text-charcoal mb-2">Skilled Professionals</h3>
                             <p className="text-stone-gray">Expert engineers, designers, and craftsmen</p>
                         </div>
@@ -85,7 +85,7 @@ export default function AboutPage() {
 
                     <div className="space-y-6">
                         <div className="flex gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 bg-forest-green text-white rounded-full flex items-center justify-center text-xl font-bold">
+                            <div className="flex-shrink-0 w-12 h-12 bg-navy-blue text-white rounded-full flex items-center justify-center text-xl font-bold">
                                 1
                             </div>
                             <div>
@@ -98,7 +98,7 @@ export default function AboutPage() {
                         </div>
 
                         <div className="flex gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 bg-forest-green text-white rounded-full flex items-center justify-center text-xl font-bold">
+                            <div className="flex-shrink-0 w-12 h-12 bg-navy-blue text-white rounded-full flex items-center justify-center text-xl font-bold">
                                 2
                             </div>
                             <div>
@@ -111,7 +111,7 @@ export default function AboutPage() {
                         </div>
 
                         <div className="flex gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 bg-forest-green text-white rounded-full flex items-center justify-center text-xl font-bold">
+                            <div className="flex-shrink-0 w-12 h-12 bg-navy-blue text-white rounded-full flex items-center justify-center text-xl font-bold">
                                 3
                             </div>
                             <div>
@@ -124,7 +124,7 @@ export default function AboutPage() {
                         </div>
 
                         <div className="flex gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 bg-forest-green text-white rounded-full flex items-center justify-center text-xl font-bold">
+                            <div className="flex-shrink-0 w-12 h-12 bg-navy-blue text-white rounded-full flex items-center justify-center text-xl font-bold">
                                 4
                             </div>
                             <div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-16 bg-gradient-to-r from-forest-green to-sage-green text-white">
+            <section className="py-16 bg-gradient-to-r from-navy-blue to-light-navy text-white">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">
                         Ready to Work With Us?

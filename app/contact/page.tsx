@@ -64,7 +64,7 @@ export default function ContactPage() {
                             <div className="space-y-6">
                                 {/* Phone */}
                                 <div className="flex items-start gap-4">
-                                    <div className="flex-shrink-0 w-12 h-12 bg-forest-green text-white rounded-full flex items-center justify-center text-xl">
+                                    <div className="flex-shrink-0 w-12 h-12 bg-navy-blue text-white rounded-full flex items-center justify-center text-xl">
                                         📞
                                     </div>
                                     <div>
@@ -76,7 +76,7 @@ export default function ContactPage() {
 
                                 {/* WhatsApp */}
                                 <div className="flex items-start gap-4">
-                                    <div className="flex-shrink-0 w-12 h-12 bg-sage-green text-white rounded-full flex items-center justify-center text-xl">
+                                    <div className="flex-shrink-0 w-12 h-12 bg-light-navy text-white rounded-full flex items-center justify-center text-xl">
                                         💬
                                     </div>
                                     <div>
@@ -115,13 +115,13 @@ export default function ContactPage() {
                             <div className="mt-8 pt-8 border-t border-gray-200">
                                 <h3 className="text-lg font-bold text-charcoal mb-4">Follow Us</h3>
                                 <div className="flex gap-4">
-                                    <a href="#" className="w-10 h-10 bg-forest-green text-white rounded-full flex items-center justify-center hover:bg-opacity-80 transition">
+                                    <a href="#" className="w-10 h-10 bg-navy-blue text-white rounded-full flex items-center justify-center hover:bg-opacity-80 transition">
                                         f
                                     </a>
-                                    <a href="#" className="w-10 h-10 bg-forest-green text-white rounded-full flex items-center justify-center hover:bg-opacity-80 transition">
+                                    <a href="#" className="w-10 h-10 bg-navy-blue text-white rounded-full flex items-center justify-center hover:bg-opacity-80 transition">
                                         in
                                     </a>
-                                    <a href="#" className="w-10 h-10 bg-forest-green text-white rounded-full flex items-center justify-center hover:bg-opacity-80 transition">
+                                    <a href="#" className="w-10 h-10 bg-navy-blue text-white rounded-full flex items-center justify-center hover:bg-opacity-80 transition">
                                         📷
                                     </a>
                                 </div>
@@ -150,7 +150,7 @@ export default function ContactPage() {
                                         value={formData.name}
                                         onChange={handleChange}
                                         required
-                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-forest-green"
+                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-blue"
                                     />
                                 </div>
 
@@ -165,7 +165,7 @@ export default function ContactPage() {
                                         value={formData.email}
                                         onChange={handleChange}
                                         required
-                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-forest-green"
+                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-blue"
                                     />
                                 </div>
 
@@ -180,7 +180,7 @@ export default function ContactPage() {
                                         value={formData.phone}
                                         onChange={handleChange}
                                         required
-                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-forest-green"
+                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-blue"
                                     />
                                 </div>
 
@@ -194,7 +194,7 @@ export default function ContactPage() {
                                         value={formData.projectType}
                                         onChange={handleChange}
                                         required
-                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-forest-green"
+                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-blue"
                                     >
                                         <option value="">Select a project type</option>
                                         <option value="residential-construction">Residential Construction</option>
@@ -218,7 +218,7 @@ export default function ContactPage() {
                                         onChange={handleChange}
                                         required
                                         rows={5}
-                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-forest-green resize-none"
+                                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-blue resize-none"
                                         placeholder="Tell us about your project requirements, location, timeline, etc."
                                     />
                                 </div>
@@ -226,7 +226,7 @@ export default function ContactPage() {
                                 <button
                                     type="submit"
                                     disabled={isSubmitting}
-                                    className="w-full bg-forest-green text-white py-3 px-6 rounded-md font-semibold hover:bg-opacity-90 transition-all disabled:bg-gray-400 disabled:cursor-not-allowed"
+                                    className="w-full bg-navy-blue text-white py-3 px-6 rounded-md font-semibold hover:bg-opacity-90 transition-all disabled:bg-gray-400 disabled:cursor-not-allowed"
                                 >
                                     {isSubmitting ? 'Sending...' : 'Send Message'}
                                 </button>
@@ -251,7 +251,7 @@ export default function ContactPage() {
                             <p className="text-stone-gray mb-4">
                                 Our engineer will visit your site to assess and provide professional recommendations.
                             </p>
-                            <a href="tel:+94XXXXXXXXX" className="text-forest-green font-semibold hover:underline">
+                            <a href="tel:+94XXXXXXXXX" className="text-navy-blue font-semibold hover:underline">
                                 Call Now →
                             </a>
                         </div>
@@ -262,7 +262,7 @@ export default function ContactPage() {
                             <p className="text-stone-gray mb-4">
                                 Receive a detailed, transparent quotation for your project with no obligations.
                             </p>
-                            <a href="#contact-form" className="text-forest-green font-semibold hover:underline">
+                            <a href="#contact-form" className="text-navy-blue font-semibold hover:underline">
                                 Request Quote →
                             </a>
                         </div>
@@ -273,7 +273,7 @@ export default function ContactPage() {
                             <p className="text-stone-gray mb-4">
                                 Speak directly with our experienced engineers about your project requirements.
                             </p>
-                            <a href="https://wa.me/94XXXXXXXXX" className="text-forest-green font-semibold hover:underline">
+                            <a href="https://wa.me/94XXXXXXXXX" className="text-navy-blue font-semibold hover:underline">
                                 WhatsApp Us →
                             </a>
                         </div>

@@ -4,7 +4,7 @@ export default function WhyChooseUsPage() {
     return (
         <main>
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-forest-green to-sage-green text-white py-20">
+            <section className="bg-gradient-to-r from-navy-blue to-light-navy text-white py-20">
                 <div className="container mx-auto px-4">
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">Why Choose NM Constructions?</h1>
                     <p className="text-xl">Your trusted partner for construction and landscaping excellence</p>
@@ -28,7 +28,7 @@ export default function WhyChooseUsPage() {
                         {/* Quality Workmanship */}
                         <div className="bg-white rounded-lg shadow-lg p-8 md:p-10">
                             <div className="flex items-start gap-6">
-                                <div className="flex-shrink-0 w-16 h-16 bg-forest-green text-white rounded-full flex items-center justify-center text-3xl">
+                                <div className="flex-shrink-0 w-16 h-16 bg-navy-blue text-white rounded-full flex items-center justify-center text-3xl">
                                     ✓
                                 </div>
                                 <div>
@@ -41,19 +41,19 @@ export default function WhyChooseUsPage() {
                                     </p>
                                     <ul className="space-y-2">
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-forest-green font-bold mt-1">•</span>
+                                            <span className="text-navy-blue font-bold mt-1">•</span>
                                             <span>Premium quality materials sourced from trusted suppliers</span>
                                         </li>
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-forest-green font-bold mt-1">•</span>
+                                            <span className="text-navy-blue font-bold mt-1">•</span>
                                             <span>Experienced craftsmen with years of specialized expertise</span>
                                         </li>
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-forest-green font-bold mt-1">•</span>
+                                            <span className="text-navy-blue font-bold mt-1">•</span>
                                             <span>Rigorous quality control at every stage of construction</span>
                                         </li>
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-forest-green font-bold mt-1">•</span>
+                                            <span className="text-navy-blue font-bold mt-1">•</span>
                                             <span>International standards and best practices</span>
                                         </li>
                                     </ul>
@@ -100,7 +100,7 @@ export default function WhyChooseUsPage() {
                         {/* Safety First */}
                         <div className="bg-white rounded-lg shadow-lg p-8 md:p-10">
                             <div className="flex items-start gap-6">
-                                <div className="flex-shrink-0 w-16 h-16 bg-sage-green text-white rounded-full flex items-center justify-center text-3xl">
+                                <div className="flex-shrink-0 w-16 h-16 bg-light-navy text-white rounded-full flex items-center justify-center text-3xl">
                                     🛡️
                                 </div>
                                 <div>
@@ -113,19 +113,19 @@ export default function WhyChooseUsPage() {
                                     </p>
                                     <ul className="space-y-2">
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-sage-green font-bold mt-1">•</span>
+                                            <span className="text-light-navy font-bold mt-1">•</span>
                                             <span>Comprehensive safety training for all team members</span>
                                         </li>
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-sage-green font-bold mt-1">•</span>
+                                            <span className="text-light-navy font-bold mt-1">•</span>
                                             <span>Regular safety inspections and compliance checks</span>
                                         </li>
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-sage-green font-bold mt-1">•</span>
+                                            <span className="text-light-navy font-bold mt-1">•</span>
                                             <span>Modern safety equipment and protective gear</span>
                                         </li>
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-sage-green font-bold mt-1">•</span>
+                                            <span className="text-light-navy font-bold mt-1">•</span>
                                             <span>Environmental protection and sustainable practices</span>
                                         </li>
                                     </ul>
@@ -172,7 +172,7 @@ export default function WhyChooseUsPage() {
                         {/* Expert Team */}
                         <div className="bg-white rounded-lg shadow-lg p-8 md:p-10">
                             <div className="flex items-start gap-6">
-                                <div className="flex-shrink-0 w-16 h-16 bg-forest-green text-white rounded-full flex items-center justify-center text-3xl">
+                                <div className="flex-shrink-0 w-16 h-16 bg-navy-blue text-white rounded-full flex items-center justify-center text-3xl">
                                     👷
                                 </div>
                                 <div>
@@ -185,19 +185,19 @@ export default function WhyChooseUsPage() {
                                     </p>
                                     <ul className="space-y-2">
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-forest-green font-bold mt-1">•</span>
+                                            <span className="text-navy-blue font-bold mt-1">•</span>
                                             <span>Certified engineers and registered architects</span>
                                         </li>
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-forest-green font-bold mt-1">•</span>
+                                            <span className="text-navy-blue font-bold mt-1">•</span>
                                             <span>Specialized landscape designers and horticulturists</span>
                                         </li>
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-forest-green font-bold mt-1">•</span>
+                                            <span className="text-navy-blue font-bold mt-1">•</span>
                                             <span>Skilled craftsmen and construction professionals</span>
                                         </li>
                                         <li className="flex items-start gap-2 text-stone-gray">
-                                            <span className="text-forest-green font-bold mt-1">•</span>
+                                            <span className="text-navy-blue font-bold mt-1">•</span>
                                             <span>Continuous training and professional development</span>
                                         </li>
                                     </ul>
@@ -280,7 +280,7 @@ export default function WhyChooseUsPage() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-16 bg-gradient-to-r from-forest-green to-sage-green text-white">
+            <section className="py-16 bg-gradient-to-r from-navy-blue to-light-navy text-white">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">
                         Experience the NM Difference
