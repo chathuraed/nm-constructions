@@ -3,11 +3,25 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --forest-green: #2d5016;
+  --sage-green: #7a9b76;
+  --charcoal: #3a3a3a;
+  --stone-gray: #808080;
+  --sand: #d4c5a9;
+  --ocean-blue: #4a90a4;
+  --sky-blue: #87ceeb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-forest-green: var(--forest-green);
+  --color-sage-green: var(--sage-green);
+  --color-charcoal: var(--charcoal);
+  --color-stone-gray: var(--stone-gray);
+  --color-sand: var(--sand);
+  --color-ocean-blue: var(--ocean-blue);
+  --color-sky-blue: var(--sky-blue);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -22,5 +36,24 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+@layer utilities {
+  .nav-link {
+    @apply text-charcoal hover:text-forest-green transition-colors duration-200 font-medium;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-charcoal mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-stone-gray mb-8;
+  }
+}
+
