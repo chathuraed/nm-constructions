@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-navy-blue to-light-navy text-white py-24 md:py-32 overflow-hidden">
+      <section className="relative bg-linear-to-br from-navy-blue to-light-navy text-white py-24 md:py-32 overflow-hidden">
         {/* Background Image Overlay - Add your hero image to /public/images/hero/hero-construction.jpg */}
         <div className="absolute inset-0 bg-black/40 z-0">
           {/* Uncomment when you add the image: */}
@@ -33,7 +33,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-16 bg-linear-to-t from-white to-transparent"></div>
       </section>
 
       {/* Services Overview */}
@@ -130,7 +130,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-ocean-blue to-sky-blue text-white">
+      <section className="py-16 bg-linear-to-r from-ocean-blue to-sky-blue text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Start Your Project?
