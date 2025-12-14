@@ -30,7 +30,7 @@ export default function Home() {
             <h2 className="section-title">Our Services</h2>
             <p className="section-subtitle">Comprehensive construction and landscaping solutions</p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-sand bg-opacity-20 p-8 rounded-lg hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">🏗️</div>
@@ -74,7 +74,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="section-title">Why Choose NM Constructions?</h2>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="text-center">
               <div className="text-5xl mb-4">✓</div>
